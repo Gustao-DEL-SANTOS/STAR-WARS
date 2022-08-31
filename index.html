@@ -8,9 +8,9 @@
     <title>Star wars</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https: //fonts.googleapis.com/css2? familia= Nunito:wght@200;600;700 &family= Poppins:wght@400;600 & family= Silkscreen & display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?familia=Nunito:wght@200;600;700&family=Poppins:wght@400;600&family=Silkscreen&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css" type="text/css">
-    <script type="text/javascript" src="./js/index.js"></script>
+    <script type="text/javascript" src="./js/index.js" defer></script>
 </head>
 <body>
     <header>
@@ -44,7 +44,7 @@
         </section>
 
         <section class="phrases-container">
-            <button id="btn-phrases">Ler uma frase</button>
+            <button id="btn-phrases" onclick="loadPhrase()">Ler uma frase</button>
             <p id="phrase"></p>
         </section>
     </main>
